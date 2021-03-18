@@ -2,7 +2,7 @@
   "compilerOptions": {
     "esModuleInterop": true,
     "jsx": "react-jsx",
-    "outDir": "./dist",
+    "outDir": "./build",
     "target": "es6",
     "lib": [
       "dom",
