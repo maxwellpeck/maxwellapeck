@@ -20,7 +20,7 @@ const App = (): JSX.Element => {
                     </ul>
                 </nav>
                 <Switch>
-                    <Route exact path="/index.html" component={Home} />
+                    <Route exact path="" component={Home} />
                     <Route path="/vegometer" component={Vegometer} />
                 </Switch>
             </BrowserRouter>
