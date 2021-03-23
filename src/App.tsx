@@ -10,15 +10,10 @@ const App = (): JSX.Element => {
 
             <BrowserRouter>
                 <nav>
-                    <ul>
-                        <li>
-                            <Link to="/">Home</Link>
-                        </li>
-                        <li>
-                            <Link to="/vegometer">Vegometer</Link>
-                        </li>
-                    </ul>
+                    <Link className="navLink" to="/"><h2>Home</h2></Link>
+                    <Link className="navLink" to="/vegometer"><h2>Vegometer</h2></Link>
                 </nav>
+
                 <Switch>
                     <Route exact path="/" component={Home} />
                     <Route path="/vegometer" component={Vegometer} />

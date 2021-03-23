@@ -1,15 +1,35 @@
 .App {
-  width: 75%;
+  width: 50%;
   height: 100%;
   margin: auto;
   text-align: center;
 }
 
-ul {
-  list-style-type: none;
+@media only screen and (max-device-width: 480px) {
+  .App {
+    width: 90%;
+  }
 }
 
-li {
-  display: inline;
-  margin: 5%;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10%;
+  margin-bottom: 2.5%;
+  padding: 2.5%;
+}
+
+.navLink {
+  padding: 0 10% 0 10%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
 }
