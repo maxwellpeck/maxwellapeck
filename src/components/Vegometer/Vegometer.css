@@ -1,0 +1,24 @@
+.screenshotImg {
+    width: 100%;
+}
+
+.privacy-policy {
+    border-radius: 10px;
+    background-color: rgb(20, 20, 20);
+    padding: 5%;
+    margin: 10% 0 10% 0;
+}
+
+.title {
+    margin-top: 0;
+}
+
+.privacy-policy-paragraph {
+    margin-bottom: 0;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .screenshotImg {
+        width: 75%;
+    }
+}

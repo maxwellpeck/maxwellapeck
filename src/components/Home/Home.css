@@ -3,47 +3,8 @@
     border-radius: 50%;
 }
 
-.title {
-    margin-bottom: 0;
-}
-
-.subtitle {
-    margin-top: 0;
-    color: gray;
-}
-
-td {
-    width: 50%;
-    padding: 2.5%
-}
-
-.profile {
-    display: flex;
-}
-
-.left {
-    width: 50%;
-    text-align: center;
-    padding: 2.5%;
-}
-
-.right {
-    width: 50%;
-    text-align: left;
-    padding: 2.5%;
-}
-
 @media only screen and (max-device-width: 480px) {
     .maxImg {
         width: 75%;
-    }
-    .profile {
-        flex-direction: column;
-    }
-    .left {
-        width: 100%;
-    }
-    .right {
-        width: 100%;
     }
 }

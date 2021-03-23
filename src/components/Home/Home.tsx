@@ -6,7 +6,7 @@ import './Home.css';
 export const Home = (): JSX.Element => {
     return (
         <div className="Home">
-            <div className="profile">
+            <div className="flex-container">
                 <div className="left">
                     <img className="maxImg" src={max} alt="this is me!" />
                 </div>

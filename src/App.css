@@ -16,20 +16,61 @@ nav {
   align-items: center;
   justify-content: center;
   height: 10%;
-  margin-bottom: 2.5%;
   padding: 2.5%;
 }
 
 .navLink {
-  padding: 0 10% 0 10%;
+  padding: 0 5% 0 5%;
+  margin: 0;
 }
 
 a {
   color: white;
   text-decoration: none;
 }
+a:hover {
+  color: rgb(10, 132, 255);;
+}
+a:active {
+  color: gray
+}
 
-h2 {
-  margin: 0;
-  padding: 0;
+/* CSS defined at top level so child components inherit: */
+.title {
+  margin-bottom: 0;
+}
+
+.subtitle {
+  margin-top: 0;
+  color: gray;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left {
+  width: 50%;
+  text-align: center;
+  padding: 2.5%;
+}
+
+.right {
+  width: 50%;
+  text-align: left;
+  padding: 2.5%;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .flex-container {
+      flex-direction: column;
+  }
+  .left {
+      width: 100%;
+  }
+  .right {
+      width: 100%;
+  }
 }
