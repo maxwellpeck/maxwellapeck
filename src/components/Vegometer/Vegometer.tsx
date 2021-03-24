@@ -16,7 +16,7 @@ export const Vegometer = (): JSX.Element => {
                     <div className="privacy-policy">
                         <h2 className="title">Privacy Policy</h2>
                         <p className="privacy-policy-paragraph">
-                            The Veg-O-Meter does not solicit any personal data from users to store or send elsewhere.  In other words, the Veg-O-Meter does not save any form of user data, period.  Happy data-free vegging!
+                            The Veg-O-Meter does not collect or store any user data.  The Veg-O-Meter may ask for photo library access to save screenshots of high scores, however it cannot access other photos.  Happy data-free vegging!
                         </p>
                     </div>
                 </div>
