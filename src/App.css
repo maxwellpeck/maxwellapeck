@@ -1,3 +1,7 @@
+:root {
+  --systemBlue: rgb(10, 132, 255);
+}
+
 .App {
   width: 50%;
   height: 100%;
@@ -29,10 +33,10 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: rgb(10, 132, 255);;
+  color: var(--systemBlue);
 }
 a:active {
-  color: gray
+  color: gray;
 }
 
 /* CSS defined at top level so child components inherit: */

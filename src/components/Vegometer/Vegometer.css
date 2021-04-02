@@ -2,6 +2,10 @@
     width: 100%;
 }
 
+.veg-link {
+    color: var(--systemBlue);
+}
+
 .privacy-policy {
     border-radius: 10px;
     background-color: rgb(20, 20, 20);
