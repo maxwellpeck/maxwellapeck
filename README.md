@@ -1,5 +1,7 @@
-Tinkering with TypeScript and React
+# Personal Website
+[maxwellapeck.com](maxwellapeck.com)
 
-maxwellapeck.com
-
-Built and deployed automatically via AWS CodeBuild and CodePipeline to AWS S3 bucket.  AWS CloudFront used for fast content delivery and Route 53 for domain name.  Just expermienting and tinkering for fun...
+Just a side project to tinker with TypeScript, React, and AWS:
+* Built/deployed with AWS CodeBuild/CodePipeline.
+* Deployed to/hosted from S3 bucket.
+* AWS CloudFront for fast content delivery and AWS Route 53 for domain name.

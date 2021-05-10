@@ -7,7 +7,6 @@ import './App.css';
 const App = (): JSX.Element => {
     return (
         <div className="App">
-
             <BrowserRouter>
                 <nav>
                     <Link className="navLink" to="/"><h2>Home</h2></Link>
