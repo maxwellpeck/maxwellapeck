@@ -1,5 +1,5 @@
 # Personal Website
-[maxwellapeck.com](maxwellapeck.com)
+[maxwellapeck.com](https://maxwellapeck.com)
 
 Just a side project to tinker with TypeScript, React, and AWS:
 * Built/deployed with AWS CodeBuild/CodePipeline.
