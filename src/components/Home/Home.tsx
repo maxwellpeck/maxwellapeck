@@ -12,7 +12,7 @@ export const Home = (): JSX.Element => {
                 </div>
                 <div className="right">
                     <h1 className="title">Maxwell Peck</h1>
-                    <p className="subtitle">Associate Software Engineer</p>
+                    <p className="subtitle">Software Engineer</p>
                     <p>Hi!  I'm Max, and I write software for Liberty Mutual.  I live in New Hampshire, and I have a Bachelor of Science in Computer Science degree from The University of Vermont.</p> 
                     <p className="title">Location</p>
                     <p className="subtitle">Dover, New Hampshire</p>
