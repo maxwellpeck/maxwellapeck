@@ -13,9 +13,9 @@ export const Home = (): JSX.Element => {
                 <div className="right">
                     <h1 className="title">Maxwell Peck</h1>
                     <p className="subtitle">Software Engineer</p>
-                    <p>Hi!  I'm Max, and I write software for Liberty Mutual.  I live in New Hampshire, and I have a Bachelor of Science in Computer Science degree from The University of Vermont.</p> 
+                    <p>Hi!  I'm Max, and I write software for Liberty Mutual.  I live in Vermont, and I have a Bachelor of Science in Computer Science degree from The University of Vermont.</p> 
                     <p className="title">Location</p>
-                    <p className="subtitle">Dover, New Hampshire</p>
+                    <p className="subtitle">Burlington, Vermont</p>
                     <p className="title">Skills</p>
                     <p className="subtitle">AWS, Node, React, TypeScript/JavaScript, Swift/SwiftUI, Java, C++, C, Python</p>
                     <p className="title">Contact</p>

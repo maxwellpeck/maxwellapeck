@@ -3,7 +3,7 @@ import screenshot from './screenshot.png';
 import './Vegometer.css';
 
 export const Vegometer = (): JSX.Element => {
-    const vegometerURL = "https://apps.apple.com/us/app/veg-o-meter/id1560019489#?platform=iphone";
+    const vegometerURL = "https://apps.apple.com/us/app/veg-o-meter/id1560019489?platform=iphone";
     
     return (
         <div className="Vegometer">
